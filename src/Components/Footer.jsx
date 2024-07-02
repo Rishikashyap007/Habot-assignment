@@ -1,10 +1,10 @@
 import React from 'react';
-import '@fortawesome/fontawesome-free/css/all.css'; 
+import '@fortawesome/fontawesome-free/css/all.css';
 
 const Footer = () => {
   return (
     <footer className="bg-blue-900 text-white py-8 flex justify-center items-center">
-      <div className="container w-full md:w-[80%] py-4 px-4 flex flex-col justify-center md:flex-row md:justify-between items-center md:border-t-2 md:border-b-2 border-slate-500 overflow-hidden  ">
+      <div className="container w-full md:w-[80%] py-4 px-4 flex flex-col justify-center md:flex-row md:justify-between items-center md:border-t-2 md:border-b-2 border-slate-500 overflow-hidden">
         <div className="mb-4 md:mb-0 text-center md:text-left">
           <div className="flex items-center justify-center md:justify-start">
             <img
@@ -39,11 +39,19 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-        <div className="flex mt-4 md:mt-0 justify-center md:justify-end">
-          <a href="#" className="text-gray-400 hover:text-gray-300 mx-2"><i className="fab fa-linkedin fa-lg"></i></a>
-          <a href="#" className="text-gray-400 hover:text-gray-300 mx-2"><i className="fab fa-twitter fa-lg"></i></a>
-          <a href="#" className="text-gray-400 hover:text-gray-300 mx-2"><i className="fab fa-facebook fa-lg"></i></a>
-          <a href="#" className="text-gray-400 hover:text-gray-300 mx-2"><i className="fab fa-instagram fa-lg"></i></a>
+        <div className="flex mt-4 md:mt-0 justify-center md:justify-end md:text-2xl">
+          <a href="#" className="text-gray-400 hover:text-gray-300 mx-2">
+            <i className="fab fa-linkedin fa-lg text-blue-500"></i>
+          </a>
+          <a href="#" className="text-gray-400 hover:text-gray-300 mx-2">
+            <i className="fab fa-twitter fa-lg text-blue-400"></i>
+          </a>
+          <a href="#" className="text-gray-400 hover:text-gray-300 mx-2">
+            <i className="fab fa-facebook fa-lg text-blue-600"></i>
+          </a>
+          <a href="#" className="text-gray-400 hover:text-gray-300 mx-2">
+            <i className="fab fa-instagram fa-lg text-pink-500"></i>
+          </a>
         </div>
       </div>
     </footer>
