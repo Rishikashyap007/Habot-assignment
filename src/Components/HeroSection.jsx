@@ -31,9 +31,9 @@ const SupplierSearch = () => {
           </button>
         </div>
 
-        <p className="mt-8 text-sm">
+        <p className="mt-8 md:text-md">
           Are you a buyer?{' '}
-          <a href="#" className="underline">
+          <a href="#" className="underline md:text-md">
             Click here if you are looking to post a requirement
           </a>
         </p>
