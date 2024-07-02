@@ -33,7 +33,7 @@ const Navbar = () => {
                     </svg>
                 </button>
             </div>
-            <div className={`fixed top-0 right-0 h-full bg-blue-50 p-8 z-50 transition-transform transform ${isMenuOpen ? 'translate-x-0' : 'translate-x-full'} md:static md:translate-x-0 md:flex md:items-center md:space-x-4 shadow-lg md:shadow-none `}>
+            <div className={`fixed top-0 right-0 h-full bg-white p-8 z-50 transition-transform transform ${isMenuOpen ? 'translate-x-0' : 'translate-x-full'} md:static md:translate-x-0 md:flex md:items-center md:space-x-4 shadow-lg md:shadow-none `}>
                 <button onClick={closeMenu} className="mb-4 md:hidden focus:outline-none">
                     <svg
                         className="w-8 h-8 text-gray-700"
